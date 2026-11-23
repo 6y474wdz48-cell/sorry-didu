@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sorry Diduuu ❤️</title>
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#ffccd9,#e8c9ff);
+  font-family: Arial;
+  text-align: center;
+  color: #773653;
+}
+.card {
+  background: white;
+  padding: 30px 22px;
+  margin: 20px;
+  border-radius: 25px;
+  max-width: 380px;
+  box-shadow: 0 10px 30px #0002;
+}
+.heart {
+  font-size: 65px;
+  animation: beat 1s infinite;
+}
+@keyframes beat {
+  50% { transform: scale(1.2); }
+}
+h1 { color: #e64f86; }
+p { line-height: 1.7; font-size: 17px; }
+button {
+  background: #e64f86;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 22px;
+  margin: 8px;
+  font-size: 16px;
+}
+#message {
+  display: none;
+  font-size: 19px;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="heart">❤️</div>
+<h1>Sorry Diduuu!</h1>
+
+<p>Didu, mujhe pata hai aap mujhse gussa ho.</p>
+
+<p>But trust me, mera intention kabhi bhi aapko hurt karne ka nahi tha. 🥺</p>
+
+<p>Aap mere liye bahut special ho. Aapki narazgi achhi nahi lagti.</p>
+
+<p>Galti ho gayi toh dil se SORRY!</p>
+
+<h3>Please maan jao na Diduuu ❤️</h3>
+
+<button onclick="yes()">Maaf kar diya? 🥹</button>
+<button onclick="no()">Abhi bhi gussa? 🙈</button>
+
+<div id="message"></div>
+</div>
+
+<script>
+function yes() {
+ document.getElementById("message").style.display="block";
+ document.getElementById("message").innerHTML =
+ "Yayyyy! Thank you Diduuu! ❤️ Aap duniya ki best Didu ho! 🥹";
+}
+function no() {
+ document.getElementById("message").style.display="block";
+ document.getElementById("message").innerHTML =
+ "Koi baat nahi Didu, jab mann kare tab maan jaana. Lots of love! ❤️";
+}
+</script>
+</body>
+</html>
